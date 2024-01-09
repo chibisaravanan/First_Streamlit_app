@@ -24,5 +24,3 @@ streamlit.multiselect("Pick some fruits:", my_fruit_list['fruit_column'].tolist(
 
 
 
-
-
