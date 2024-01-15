@@ -52,3 +52,6 @@ try:
           my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake'])
           my_data_rows = get_fruit_load_list()
           streamlit.dataframe(my_data_rows)
+# Allow the end user to add a fruit to the list
+     def insert_row_snowflake(new_fruit):
+       
