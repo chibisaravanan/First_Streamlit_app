@@ -46,6 +46,8 @@ streamlit.header("Fruityvice Fruit Advice!")
 fruit_choice = streamlit.text_input('What fruit would you like information about?','jackfruit')
 streamlit.write('The user entered ', fruit_choice)
 
+#this will not work correctly, but just go with it for now
+my_cur.execute ("insert into fruit_load_list values ('from streamlit')")
 
 
 
